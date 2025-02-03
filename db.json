@@ -1,14 +1,37 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "states": [ 
+    { 
+      "id": 1, 
+      "name": "Alabama",
+      "capital": "Montgomery",
+      "population": 5157699,
+      "cities": [
+        "Montgomery",
+        "Huntsville",
+        "Birmingham"
+      ]
+    },
+    { 
+      "id": 2, 
+      "name": "Texas",
+      "capital": "Austin",
+      "population": 31290831,
+      "cities": [
+        "Austin",
+        "Houston",
+        "Dallas"
+      ]
+    },
+    { 
+      "id": 3, 
+      "name": "Ohio",
+      "capital": "Columbus",
+      "population": 11883304,
+      "cities": [
+        "Columbus",
+        "Cleveland",
+        "Toledo"
+      ]
+    }
+  ]
 }
